@@ -1,0 +1,113 @@
+<div class="row border-bottom">
+  <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
+
+    <div class="navbar-header">
+      <a class="minimalize-styl-2 btn btn-primary " (click)="toggleNavigation()"><i class="fa fa-bars"></i> </a>
+      <form role="search" class="navbar-form-custom" action="#">
+        <div class="form-group">
+          <input type="text" placeholder="Search for something..." class="form-control" name="top-search"
+            id="top-search">
+        </div>
+      </form>
+    </div>
+
+    <ul class="nav navbar-top-links navbar-right">
+      <li class="checkout-test">
+        <button (click)="openOrderDetails()">
+          <span class="glyphicon glyphicon-shopping-cart"></span>
+          {{ cartService.cartItems.length }}
+        </button>
+      </li>
+
+      <li *ngIf="!isloggedIn">
+        <a (click)="openSignupModal()">
+          <i class="fa fa-user"></i>
+          <span>Sign up</span>
+        </a>
+      </li>
+
+      <li *ngIf="!isloggedIn">
+        <a (click)="openSignInModal()">
+          <i class="fa fa-user"></i>
+          <span>Sign In</span>
+        </a>
+      </li>
+
+      <li *ngIf="isloggedIn">
+        <a (click)="logout()">
+          <i class="fa fa-sign-out"></i>
+          <span>Log Out</span>
+        </a>
+      </li>
+
+      <li *ngIf="isloggedIn">
+        <a [routerLink]="['userLayout']">
+          <i class="fa fa-user"></i>
+          <span>User profile</span>
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+
+
+<div class="modal fade" bsModal #userSignInModal="bs-modal" tabindex="-1" role="dialog" (onHidden)="closeSignInModal()">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <h3 class="m-t-none m-b">Sign in</h3>
+        <div style="margin-bottom: 10px;">
+          <div class="row clear">
+            <button class="btn btn-social-icon btn-google mx-1 google-plus " style="float: left;"(click)="signInWithGoogle()">Login with
+              Google <span class="fa fa-google"></span></button>
+            <button class="btn btn-social-icon btn-facebook mx-1 facebook float-right" style="float: right;" (click)="signInWithFB()">Login with
+              Facebook <span class="fa fa-facebook"></span></button>
+          </div>
+        </div>
+
+        <form role="form" [formGroup]="userGroupModel" (ngSubmit)="userLogin()">
+          <div class="form-group"><input type="email" placeholder="Enter email" class="form-control"
+              formControlName="email"></div>
+          <div class="form-group"><input type="password" placeholder="Password" class="form-control"
+              [pattern]="passwordPattern" formControlName="password"></div>
+          <div>
+            <button class="btn btn-sm btn-primary float-right m-t-n-xs" type="submit"><strong>Log
+                in</strong></button>
+            <label> <input type="checkbox" class="i-checks"> Remember me </label>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="modal fade" bsModal #userSignUpModal="bs-modal" tabindex="-1" role="dialog" (onHidden)="closeSignUpModal()">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-body">
+        <h3 class="m-t-none m-b">Welcome to Sign Up</h3>
+        <form role="form" [formGroup]="userGroupModel" (ngSubmit)="createUser()" #userform="ngForm">
+          <div class="form-group"><input type="email" placeholder="Enter email" class="form-control"
+              formControlName="email">
+          </div>
+
+          <div class="form-group"> <input type="text" placeholder="Enter First Name" class="form-control"
+              formControlName="firstName">
+          </div>
+
+          <div class="form-group"><input type="text" placeholder="Enter Last Name" class="form-control"
+              formControlName="lastName">
+          </div>
+
+          <div class="form-group"><input type="password" placeholder="Password" class="form-control"
+              formControlName="password">
+          </div>
+
+          <button class="btn btn-sm btn-primary float-right m-t-n-xs" type="submit">
+            <strong>Sign Up</strong>
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>

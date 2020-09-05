@@ -1,0 +1,25 @@
+<!-- Hero Section Begin -->
+<section class="hero">
+    <div class="container-fluid">
+        <div class="row no-gutters">
+            <div class="col-8 col-md-8">
+                <owl-carousel-o [options]="customOptions" >
+                    <ng-container *ngFor="let slide of topBannerPhotos">
+                        <ng-template class="slide " carouselSlide [id]="slide.id" class="px-md-5">
+                            <img [src]="slide.url" [alt]="slide.id" [title]="slide.id" >
+                        </ng-template>
+                    </ng-container>
+                </owl-carousel-o>
+            </div>
+            <div class="col-4 col-md-4"  >
+                <div class="top-banner-right-item mb-2" >
+                    <img src="../../../assets/styles/images/banner/topbanner/6.png" alt="">
+                </div>
+
+                <div class="top-banner-right-item">
+                    <img src="../../../assets/styles/images/banner/topbanner/5.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
