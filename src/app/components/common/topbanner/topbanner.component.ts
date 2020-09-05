@@ -54,20 +54,20 @@ export class TopbannerComponent implements OnInit {
       {
         id: 1,
         title: "Testing1",
-        url: '../../../assets/styles/images/banner/topbanner/1.png',
-        thumbnailUrl: '../../../assets/styles/images/banner/topbanner/1.png'
+        url: './assets/styles/images/banner/topbanner/1.png',
+        thumbnailUrl: './assets/styles/images/banner/topbanner/1.png'
       },
       {
         id: 2,
         title: "Testing1",
-        url: '../../../assets/styles/images/banner/topbanner/2.png',
-        thumbnailUrl: '../../../assets/styles/images/banner/topbanner/2.png'
+        url: './assets/styles/images/banner/topbanner/2.png',
+        thumbnailUrl: './assets/styles/images/banner/topbanner/2.png'
       },
       {
         id: 3,
         title: "Testing1",
-        url: '../../../assets/styles/images/banner/topbanner/5.png',
-        thumbnailUrl: '../../../assets/styles/images/banner/topbanner/5.png'
+        url: './assets/styles/images/banner/topbanner/5.png',
+        thumbnailUrl: './assets/styles/images/banner/topbanner/5.png'
       },
     ];
 
@@ -75,15 +75,15 @@ export class TopbannerComponent implements OnInit {
       {
         id: 1,
         title: "Testing1",
-        url: '../../../assets/styles/images/banner/topbanner/rightsmall1.jpeg',
-        thumbnailUrl: '../../../assets/styles/images/banner/topbanner/rightsmall1.jpeg'
+        url: './assets/styles/images/banner/topbanner/rightsmall1.jpeg',
+        thumbnailUrl: './assets/styles/images/banner/topbanner/rightsmall1.jpeg'
       },
 
       {
         id: 2,
         title: "Testing1",
-        url: '../../../assets/styles/images/banner/topbanner/rightsmall2.png',
-        thumbnailUrl: '../../../assets/styles/images/banner/topbanner/rightsmall2.png'
+        url: './assets/styles/images/banner/topbanner/rightsmall2.png',
+        thumbnailUrl: './assets/styles/images/banner/topbanner/rightsmall2.png'
       },
 
     ];
