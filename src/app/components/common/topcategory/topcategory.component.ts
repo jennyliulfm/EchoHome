@@ -57,143 +57,143 @@ export class TopcategoryComponent implements OnInit {
       {
         id: 1,
         title: "Testing1",
-        url: 'assets/styles/images/categories/cat1.png',
-        thumbnailUrl: 'assets/styles/images/categories/cat1.png',
+        url: '../../../assets/styles/images/categories/cat1.png',
+        thumbnailUrl: '../../../assets/styles/images/categories/cat1.png',
         name: "Clothing"
       },
       {
         id: 2,
         title: "Testing1",
-        url: 'assets/styles/images/categories/cat2.png',
-        thumbnailUrl: 'assets/styles/images/categories/cat2.png',
+        url: '../../../assets/styles/images/categories/cat2.png',
+        thumbnailUrl: '../../../assets/styles/images/categories/cat2.png',
         name: "Eating"
       },
       {
         id: 3,
         title: "Testing1",
-        url: 'assets/styles/images/categories/cat3.png',
-        thumbnailUrl: 'assets/styles/images/categories/cat3.png',
+        url: '../../../assets/styles/images/categories/cat3.png',
+        thumbnailUrl: '../../../assets/styles/images/categories/cat3.png',
         name: "Sports"
       },
 
       {
         id: 4,
         title: "Testing1",
-        url: 'assets/styles/images/categories/cat4.png',
-        thumbnailUrl: 'assets/styles/images/categories/cat4.png',
+        url: '../../../assets/styles/images/categories/cat4.png',
+        thumbnailUrl: '../../../assets/styles/images/categories/cat4.png',
         name: "Wellbeing"
       },
       {
         id: 5,
         title: "Testing1",
-        url: 'assets/styles/images/categories/cat5.png',
-        thumbnailUrl: 'assets/styles/images/categories/cat5.png',
+        url: '../../../assets/styles/images/categories/cat5.png',
+        thumbnailUrl: '../../../assets/styles/images/categories/cat5.png',
         name: "Skirts"
       },
       {
         id: 6,
         title: "Testing1",
-        url: 'assets/styles/images/categories/cat6.png',
-        thumbnailUrl: 'assets/styles/images/categories/cat6.png',
+        url: '../../../assets/styles/images/categories/cat6.png',
+        thumbnailUrl: '../../../assets/styles/images/categories/cat6.png',
         name: "Electronics"
       },
       {
         id: 7,
         title: "Testing1",
-        url: 'assets/styles/images/categories/cat7.png',
-        thumbnailUrl: 'assets/styles/images/categories/cat7.png',
+        url: '../../../assets/styles/images/categories/cat7.png',
+        thumbnailUrl: '../../../assets/styles/images/categories/cat7.png',
         name: "Fresh Fruit"
       },
       {
         id: 8,
         title: "Testing1",
-        url: 'assets/styles/images/categories/cat8.png',
-        thumbnailUrl: 'assets/styles/images/categories/cat8.png',
+        url: '../../../assets/styles/images/categories/cat8.png',
+        thumbnailUrl: '../../../assets/styles/images/categories/cat8.png',
         name: "Clothing"
       },
       {
         id: 9,
         title: "Testing1",
-        url: 'assets/styles/images/categories/cat9.png',
-        thumbnailUrl: 'assets/styles/images/categories/cat9.png',
+        url: '../../../assets/styles/images/categories/cat9.png',
+        thumbnailUrl: '../../../assets/styles/images/categories/cat9.png',
         name: "Clothing"
       },
       {
         id: 10,
         title: "Testing1",
-        url: 'assets/styles/images/categories/cat10.png',
-        thumbnailUrl: 'assets/styles/images/categories/cat10.png',
+        url: '../../../assets/styles/images/categories/cat10.png',
+        thumbnailUrl: '../../../assets/styles/images/categories/cat10.png',
         name: "Clothing"
       },
       {
         id: 1,
         title: "Testing1",
-        url: 'assets/styles/images/categories/cat1.png',
-        thumbnailUrl: 'assets/styles/images/categories/cat1.png',
+        url: '../../../assets/styles/images/categories/cat1.png',
+        thumbnailUrl: '../../../assets/styles/images/categories/cat1.png',
         name: "Clothing"
       },
       {
         id: 2,
         title: "Testing1",
-        url: 'assets/styles/images/categories/cat2.png',
-        thumbnailUrl: 'assets/styles/images/categories/cat2.png',
+        url: '../../../assets/styles/images/categories/cat2.png',
+        thumbnailUrl: '../../../assets/styles/images/categories/cat2.png',
         name: "Eating"
       },
       {
         id: 3,
         title: "Testing1",
-        url: 'assets/styles/images/categories/cat3.png',
-        thumbnailUrl: 'assets/styles/images/categories/cat3.png',
+        url: '../../../assets/styles/images/categories/cat3.png',
+        thumbnailUrl: '../../../assets/styles/images/categories/cat3.png',
         name: "Sports"
       },
 
       {
         id: 4,
         title: "Testing1",
-        url: 'assets/styles/images/categories/cat4.png',
-        thumbnailUrl: 'assets/styles/images/categories/cat4.png',
+        url: '../../../assets/styles/images/categories/cat4.png',
+        thumbnailUrl: '../../../assets/styles/images/categories/cat4.png',
         name: "Wellbeing"
       },
       {
         id: 5,
         title: "Testing1",
-        url: 'assets/styles/images/categories/cat5.png',
-        thumbnailUrl: 'assets/styles/images/categories/cat5.png',
+        url: '../../../assets/styles/images/categories/cat5.png',
+        thumbnailUrl: '../../../assets/styles/images/categories/cat5.png',
         name: "Skirts"
       },
       {
         id: 6,
         title: "Testing1",
-        url: 'assets/styles/images/categories/cat6.png',
-        thumbnailUrl: 'assets/styles/images/categories/cat6.png',
+        url: '../../../assets/styles/images/categories/cat6.png',
+        thumbnailUrl: '../../../assets/styles/images/categories/cat6.png',
         name: "Electronics"
       },
       {
         id: 7,
         title: "Testing1",
-        url: 'assets/styles/images/categories/cat7.png',
-        thumbnailUrl: 'assets/styles/images/categories/cat7.png',
+        url: '../../../assets/styles/images/categories/cat7.png',
+        thumbnailUrl: '../../../assets/styles/images/categories/cat7.png',
         name: "Fresh Fruit"
       },
       {
         id: 8,
         title: "Testing1",
-        url: 'assets/styles/images/categories/cat8.png',
-        thumbnailUrl: 'assets/styles/images/categories/cat8.png',
+        url: '../../../assets/styles/images/categories/cat8.png',
+        thumbnailUrl: '../../../assets/styles/images/categories/cat8.png',
         name: "Clothing"
       },
       {
         id: 9,
         title: "Testing1",
-        url: 'assets/styles/images/categories/cat9.png',
-        thumbnailUrl: 'assets/styles/images/categories/cat9.png',
+        url: '../../../assets/styles/images/categories/cat9.png',
+        thumbnailUrl: '../../../assets/styles/images/categories/cat9.png',
         name: "Clothing"
       },
       {
         id: 10,
         title: "Testing1",
-        url: 'assets/styles/images/categories/cat10.png',
-        thumbnailUrl: 'assets/styles/images/categories/cat10.png',
+        url: '../../../assets/styles/images/categories/cat10.png',
+        thumbnailUrl: '../../../assets/styles/images/categories/cat10.png',
         name: "Clothing"
       },
 

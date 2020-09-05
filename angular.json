@@ -82,18 +82,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "EchoHome:build"
+            "browserTarget": "Echo-Ecommerce-Web:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "EchoHome:build:production"
+              "browserTarget": "Echo-Ecommerce-Web:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "EchoHome:build"
+            "browserTarget": "Echo-Ecommerce-Web:build"
           }
         },
         "test": {
@@ -150,18 +150,18 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "EchoHome:serve"
+            "devServerTarget": "Echo-Ecommerce-Web:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "EchoHome:serve:production"
+              "devServerTarget": "Echo-Ecommerce-Web:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "EchoHome",
+  "defaultProject": "Echo-Ecommerce-Web",
   "cli": {
     "analytics": "4da08590-c006-4557-8426-d40882009ab8"
   }
