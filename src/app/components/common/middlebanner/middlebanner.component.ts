@@ -19,14 +19,14 @@ export class MiddlebannerComponent implements OnInit {
       {
         id:1,
         name: "Mother's Day",
-        photo_url: "../../../../assets/styles/images/banner/topbanner/1.png",
-        event_url: "../../../../assets/styles/images/banner/topbanner/1.png",       
+        photo_url: "assets/styles/images/banner/topbanner/1.png",
+        event_url: "assets/styles/images/banner/topbanner/1.png",       
       },
       {
         id:3,
         name: "Mother's Day",
-        photo_url: "../../../../assets/styles/images/banner/topbanner/5.png",
-        event_url: "../../../../assets/styles/images/banner/topbanner/5.png",       
+        photo_url: "assets/styles/images/banner/topbanner/5.png",
+        event_url: "assets/styles/images/banner/topbanner/5.png",       
       },
     ];
   }
