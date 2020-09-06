@@ -6,7 +6,7 @@
                 <owl-carousel-o [options]="customOptions" >
                     <ng-container *ngFor="let slide of topBannerPhotos">
                         <ng-template class="slide " carouselSlide [id]="slide.id" class="px-md-5">
-                            <img [src]="slide.url" [alt]="slide.id" [title]="slide.id" >
+                            <img [src]="slide.url" [alt]="slide.id" [title]="slide.id" class="img-responsive" style="max-height: 100%;">
                         </ng-template>
                     </ng-container>
                 </owl-carousel-o>

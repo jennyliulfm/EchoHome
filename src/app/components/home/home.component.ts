@@ -43,7 +43,7 @@ export class HomeComponent implements OnInit, AfterViewInit {
 
   ngAfterViewInit() {
   
-    this.openModal(this.popbannerTpl);
+    //this.openModal(this.popbannerTpl);
   }
 
   /**
@@ -100,8 +100,8 @@ export class HomeComponent implements OnInit, AfterViewInit {
     this.popupBanner = {
       id:3,
       name: "Mother's Day",
-      photo_url: "../../../../assets/styles/images/banner/topbanner/5.png",
-      event_url: "../../../../assets/styles/images/banner/topbanner/5.png",   
+      photo_url: "./assets/styles/images/banner/topbanner/5.png",
+      event_url: "./assets/styles/images/banner/topbanner/5.png",   
     }
   }
 }
